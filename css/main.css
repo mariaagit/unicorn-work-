@@ -1,0 +1,138 @@
+</****** BASE STYLES ******/
+
+body {
+    font-family: 'Satisfy', cursive;
+}
+
+#about, #work, #contact {
+    height: 550px;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 600px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 800px;
+    background: url('../img/mountains.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 50px 0;
+}
+nav {
+    float: right;
+    padding: 75px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 80px;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Satisfy', cursive;
+    font-size: 72px;
+    line-height: 80px;
+    color: #ffffff;
+    padding: 20px 0;
+}
+header h2 span {
+    color: #2f3447;
+}
+
+/****** ABOUT ******/
+
+#about .full-width {
+    padding: 110px 0;
+}
+
+#about h2 {
+    font-family: 'PT Serif', serif;
+    font-size: 36px;
+    color: #000000;
+}
+#about p {
+    font-size: 21px;
+    color: #08133e;
+    line-height: 42px;
+    padding-right: 50px;
+    font-family: 'PT Serif', serif;
+}
+
+
+/****** CONTACT ******/
+
+#contact {
+    background-color: #ebebeb;
+}
+#contact .full-width {
+    padding: 20px 40px;
+}
+#contact img#contact-img {
+    border: 12px solid #ffffff;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+
+}
+#contact h2 {
+    font-family: 'PT Serif', serif;
+    font-size: 36px;
+}
+#contact h3 {
+  font-family: 'PT Serif', serif;
+}
+#contact #email-header{
+    font-size: 32px;
+    font-weight: 400;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0px 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+    font-family: 'PT Serif', serif;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 10px;
+}
